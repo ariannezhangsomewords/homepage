@@ -5,13 +5,22 @@ body{
     padding: 0%;
 width: 1366px;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
 .landing{
     position: relative;
-    left: 20px;
-    top: 700px;
+    left: 0px;
+    top: 1200px;
     z-index: 5;
-/* border: 1px blue solid; */
+border: 5px white dashed;
+align-items: center;
+justify-content: center;
 }
 
 .title{
@@ -84,14 +93,14 @@ text-decoration: none;
 
 .parent { 
     display: grid; 
-    grid-template-columns: repeat(6, 1fr); 
-    grid-template-rows: repeat(5, 1fr); 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(9, 1fr); 
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
-    margin-top: 800px;
-    border-top: white dashed 2px;
+    margin-top: 1400px;
+    border-bottom: white dashed 2px;
     }
-    .div1 { grid-area: 1 / 1 / 2 / 2; } 
+    /* .div1 { grid-area: 1 / 1 / 2 / 2; } 
     .div2 { grid-area: 1 / 2 / 2 / 3; } 
     .div3 { grid-area: 1 / 3 / 2 / 4; } 
     .div4 { grid-area: 1 / 4 / 2 / 5; } 
@@ -119,7 +128,37 @@ text-decoration: none;
     .div26 { grid-area: 5 / 2 / 6 / 3; } 
     .div27 { grid-area: 5 / 3 / 6 / 4; } 
     .div28 { grid-area: 5 / 4 / 6 / 5; } 
-    .div29 { grid-area: 5 / 5 / 6 / 6; } 
+    .div29 { grid-area: 5 / 5 / 6 / 6; }  */
+    .div1 { grid-area: 1 / 1 / 2 / 2; } 
+.div2 { grid-area: 1 / 2 / 2 / 3; } 
+.div3 { grid-area: 1 / 3 / 2 / 4; } 
+.div4 { grid-area: 1 / 4 / 2 / 5; } 
+.div5 { grid-area: 1 / 5 / 2 / 6; } 
+.div6 { grid-area: 2 / 1 / 3 / 2; } 
+.div7 { grid-area: 2 / 2 / 3 / 3; } 
+.div8 { grid-area: 2 / 3 / 3 / 4; } 
+.div9 { grid-area: 2 / 4 / 3 / 5; } 
+.div10 { grid-area: 2 / 5 / 3 / 6; } 
+.div11 { grid-area: 3 / 2 / 4 / 3; } 
+.div12 { grid-area: 3 / 3 / 4 / 4; } 
+.div13 { grid-area: 3 / 4 / 4 / 5; } 
+.div14 { grid-area: 4 / 2 / 5 / 3; } 
+.div15 { grid-area: 4 / 4 / 5 / 5; } 
+.div16 { grid-area: 5 / 2 / 6 / 3; } 
+.div17 { grid-area: 5 / 3 / 6 / 4; } 
+.div18 { grid-area: 5 / 4 / 6 / 5; } 
+.div19 { grid-area: 6 / 3 / 7 / 4; } 
+.div20 { grid-area: 7 / 1 / 8 / 2; } 
+.div21 { grid-area: 7 / 2 / 8 / 3; } 
+.div22 { grid-area: 7 / 3 / 8 / 4; } 
+.div23 { grid-area: 7 / 4 / 8 / 5; } 
+.div24 { grid-area: 7 / 5 / 8 / 6; } 
+.div25 { grid-area: 8 / 1 / 9 / 2; } 
+.div26 { grid-area: 8 / 2 / 9 / 3; } 
+.div27 { grid-area: 8 / 3 / 9 / 4; } 
+.div28 { grid-area: 8 / 4 / 9 / 5; } 
+.div29 { grid-area: 8 / 5 / 9 / 6; } 
+
 
 .venn{
     height: 225px;
@@ -219,4 +258,13 @@ top: 300px;
     position: absolute;
    top: 600px;
    left: 700px;
+}
+
+.footer{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    /* border-top: white dashed 2px; */
+ top: 5220px;
+ left: 540px;
 }
